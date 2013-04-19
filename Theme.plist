@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RWColourTagCSSFiles</key>
+	<array>
+		<string>colourtag.css</string>
+	</array>
+	<key>RWCopyFiles</key>
+	<array>
+		<string>css</string>
+		<string>images</string>
+		<string>styles.css</string>
+		<string>colourtag.css</string>
+		<string>print.css</string>
+		<string>handheld.css</string>
+		<string>javascript.js</string>
+		<string>js/jquery-1.3.2.min.js</string>
+		<string>js/jquery.siteFeature.js</string>
+		<string>js/jquery.siteFeature.pack.js</string>
+	</array>
+	<key>RWStyleVariations</key>
+	<dict>
+		<key>RWStyleGroups</key>
+		<array>
+			<dict>
+				<key>GroupDisplayName</key>
+				<dict>
+					<key>de</key>
+					<string>Menü</string>
+					<key>en</key>
+					<string>Sidebar</string>
+					<key>fr</key>
+					<string>Barre latérale</string>
+					<key>it</key>
+					<string>Barra laterale</string>
+					<key>ja</key>
+					<string>サイドバー</string>
+				</dict>
+				<key>GroupMembers</key>
+				<array>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>de</key>
+							<string>Rechts</string>
+							<key>en</key>
+							<string>Right</string>
+							<key>fr</key>
+							<string>À droite</string>
+							<key>it</key>
+							<string>Destra</string>
+							<key>ja</key>
+							<string>右</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/sidebar/sidebar_right.css</string>
+						</array>
+						<key>Name</key>
+						<string>Right</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>de</key>
+							<string>Links</string>
+							<key>en</key>
+							<string>Left</string>
+							<key>fr</key>
+							<string>À gauche</string>
+							<key>it</key>
+							<string>Sinistra</string>
+							<key>ja</key>
+							<string>左</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/sidebar/sidebar_left.css</string>
+						</array>
+						<key>Name</key>
+						<string>Left</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+					<dict>
+						<key>DisplayName</key>
+						<dict>
+							<key>de</key>
+							<string>Ausblenden</string>
+							<key>en</key>
+							<string>Hide</string>
+							<key>fr</key>
+							<string>Masquée</string>
+							<key>it</key>
+							<string>Nascondi</string>
+							<key>ja</key>
+							<string>隠す</string>
+						</dict>
+						<key>Enabled</key>
+						<false/>
+						<key>Files</key>
+						<array>
+							<string>css/sidebar/sidebar_hide.css</string>
+						</array>
+						<key>Name</key>
+						<string>Hide</string>
+						<key>Type</key>
+						<string>Stylesheet</string>
+					</dict>
+				</array>
+				<key>GroupName</key>
+				<string>Sidebar</string>
+				<key>GroupSelectionLimit</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>RWTemplateHTML</key>
+	<string>index.html</string>
+	<key>RWTextToolbar</key>
+	<dict>
+		<key>RWAlwaysDisplayFullNavigation</key>
+		<true/>
+		<key>RWBreadCrumb</key>
+		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
+		<key>RWBreadCrumbItem</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot;&gt;%title%&lt;/a&gt;%separator%&lt;/li&gt;</string>
+		<key>RWBreadCrumbSeparator</key>
+		<string>&amp;nbsp;&gt;&amp;nbsp;</string>
+		<key>RWSupportedLevels</key>
+		<integer>2</integer>
+		<key>RWToolbarItemCurrent</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; id=&quot;current&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarItemCurrentAncestor</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot; class=&quot;currentAncestor&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarItemNormal</key>
+		<string>&lt;li&gt;&lt;a href=&quot;%url%&quot; rel=&quot;%rel%&quot;&gt;%title%&lt;/a&gt;%subitems%&lt;/li&gt;</string>
+		<key>RWToolbarList</key>
+		<string>&lt;ul&gt;%items%&lt;/ul&gt;</string>
+	</dict>
+	<key>RWThemeAuthor</key>
+	<string>Qïxi</string>
+	<key>RWThemeCapabilities</key>
+	<dict>
+		<key>RWSupportsContentOnlySubPages</key>
+		<true/>
+		<key>RWSupportsDisplayNames</key>
+		<true/>
+		<key>RWSupportsPathTo</key>
+		<true/>
+		<key>RWSupportsToolbarRelTag</key>
+		<true/>
+	</dict>
+	<key>RWThemeDisplayName</key>
+	<dict>
+		<key>de</key>
+		<string>Vanguardia Hi-Tech</string>
+		<key>en</key>
+		<string>Vanguardia Hi-Tech</string>
+		<key>fr</key>
+		<string>Vanguardia Hi-Tech</string>
+		<key>it</key>
+		<string>Vanguardia Hi-Tech</string>
+		<key>ja</key>
+		<string>Vanguardia Hi-Tech</string>
+	</dict>
+	<key>RWThemeImage</key>
+	<string>preview.png</string>
+	<key>RWThemeImageLarge</key>
+	<string>preview_large.jpg</string>
+	<key>RWThemeKeyWords</key>
+	<array>
+		<string>realmac</string>
+		<string>software</string>
+	</array>
+	<key>RWThemeName</key>
+	<string>Vanguardia Hi-Tech</string>
+	<key>RWThemeShippedInVersion</key>
+	<string>4.0</string>
+	<key>RWThemeShortName</key>
+	<string>VanguardiaHT</string>
+	<key>RWVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

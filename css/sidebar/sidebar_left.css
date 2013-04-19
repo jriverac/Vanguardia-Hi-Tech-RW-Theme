@@ -1,0 +1,23 @@
+#contentContainer {
+width: 760px;
+float: right;
+	
+}
+
+#contentContainer #content {
+
+}
+
+#sidebarContainer {
+	width: 200px;
+	float: left;
+	background-color: #ffff00;
+}
+
+#sidebarContainer #sidebar {
+	
+}
+
+#sidebarContainer .sideHeader {
+	
+}

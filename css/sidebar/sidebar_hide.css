@@ -1,0 +1,19 @@
+#contentContainer {
+	width:  960px;
+}
+
+#contentContainer #content {
+
+}
+
+#sidebarContainer {
+	display:  none;
+}
+
+#sidebarContainer #sidebar {
+	
+}
+
+#sidebarContainer .sideHeader {
+	
+}
