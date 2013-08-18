@@ -171,7 +171,7 @@ img {
 
 #footer {
 	width: 960px;
-/*	height: 74px;*/
+	height: 35px;
 	padding: 10px;
 	margin-left: auto; 
 	margin-right: auto;
@@ -213,11 +213,6 @@ img {
 	background-image: url('images/qixi/qixi_badge_silver.png');
 }
 
-#footer_qixi_badge:hover img {
-	/*background-image: url('images/qixi/qixi_badge_silver.png');*/
-	display: none;
-}
-
 #footer p {
 	color: #666666;
 }
@@ -248,6 +243,7 @@ img {
 /* @group Bread-crumb */
 
 #breadcrumb_container {
+		float: left;
 /*	font-family: Helvetica, Arial, Tahoma, Verdana, Sans-Serif;
 	font-size: 20px;
 	line-height: 40px;
@@ -287,6 +283,13 @@ img {
 
 #breadcrumb_container a:hover {
 		color:#ffffff;
+}
+
+#business_address {
+	float:  right;
+	font-family: Helvetica, Arial, Tahoma, Verdana, Sans-Serif;
+	font-size: 14px;
+	color: #888888;
 }
 
 

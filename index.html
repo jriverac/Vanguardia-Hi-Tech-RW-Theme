@@ -33,6 +33,10 @@
 		box-sizing: border-box;
 		position: relative;
 	}
+	
+	.qx_panel_description_text {
+		padding: 10px;
+	}
 
 	.qx_image {
 		width: inherit;
@@ -64,7 +68,6 @@
 		box-sizing: border-box;
 		border: 1px solid #000000;
 		border-radius: 10px;
-		padding: 10px;
 		text-align: center;
 		box-shadow: 0px 0px 5px #444;
 	}	
@@ -77,11 +80,14 @@
 		background-color: #ffffff;
 		font-size: 17px;
 		color: #351b51;
-		padding: 20px;
 		height: 80px;
 		border: 1px solid #333;
 		border-radius: 10px;
 		box-sizing: border-box;
+	}
+	
+	#qx_blurb_message_text {
+		padding: 20px;
 	}
 	
 	
@@ -205,7 +211,7 @@
 <div class='stacks_out' style='width: 100%;' >
 <div class='stacks_in' style='margin-top: 2px;margin-bottom: 2px;margin-left: 2px;margin-right: 2px;padding-top: 5px;padding-bottom: 5px;padding-left: 5px;padding-right: 5px;' >
 <p><div id="qx_blurb_title">Vanguardia es estar adelantado, en movimiento, en el punto mas avanzado...
-<div id="qx_blurb_message">Ya sea que busques adelantarte a tu competencia, a tu industria o retarte a ti mismo, ponemos a tu alcance productos verdaderamente sorprendentes, lo mejor del mundo a tu alcance y de la mejor calidad.
+<div id="qx_blurb_message"><div id="qx_blurb_message_text">Ya sea que busques adelantarte a tu competencia, a tu industria o retarte a ti mismo, ponemos a tu alcance productos verdaderamente sorprendentes, lo mejor del mundo a tu alcance y de la mejor calidad.</div>
 </div>
 </div>
 <p>
@@ -219,7 +225,8 @@
 <div id="qx_team" class="qx_panel">
 	<div class="qx_image">
 </div>
-<div class="qx_panel_description">Nuestro equipo de profesionales esta siempre ah&iacute; cuando lo necesitas. Listos para responder tus preguntas de manera r&aacute;pida y eficiente.</div>
+<div class="qx_panel_description">
+	<div class="qx_panel_description_text">Nuestro equipo de profesionales esta siempre ah&iacute; cuando lo necesitas. Listos para responder tus preguntas de manera r&aacute;pida y eficiente.</div></div>
 </div>
 <div class='stacks_clearer'></div>
 </div>
@@ -230,8 +237,9 @@
 <div id="qx_call_us" class="qx_panel">
 	<div class="qx_image">
 </div>
-<div class="qx_panel_description"><strong>&iquest;Quieres regresar el &ldquo;Wow&rdquo; a la cara de tus clientes?</strong> Impresionalos positivamente y crea relaciones de negocios memorables.<div id="qx_call_to_action">
-	Llamanos!
+<div class="qx_panel_description">
+<div class="qx_panel_description_text"><strong>&iquest;Quieres regresar el &ldquo;Wow&rdquo; a la cara de tus clientes?</strong> Impresionalos positivamente y crea relaciones de negocios memorables.<div id="qx_call_to_action">
+	Llamanos!</div>
 </div></div>
 </div>
 <div class='stacks_clearer'></div>
@@ -243,7 +251,7 @@
 <div id="qx_world" class="qx_panel">
 	<div class="qx_image">
 </div>
-<div class="qx_panel_description">Viajamos por el mundo y trabajamos con nuestra red global de contactos para poder ofrecerte los mejores productos a los mejores precios.</div>
+<div class="qx_panel_description"><div class="qx_panel_description_text">Viajamos por el mundo y trabajamos con nuestra red global de contactos para poder ofrecerte los mejores productos a los mejores precios.</div></div>
 </div>
 <div class='stacks_clearer'></div>
 </div>
@@ -285,7 +293,7 @@
 		&copy; 2013 Vanguardia Hi-Tech. Todos los derechos reservados. <a href="#" id="rw_email_contact">Contacto</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":in";var _rwObsfuscatedHref3 = "fo@";var _rwObsfuscatedHref4 = "van";var _rwObsfuscatedHref5 = "gua";var _rwObsfuscatedHref6 = "rdi";var _rwObsfuscatedHref7 = "ahi";var _rwObsfuscatedHref8 = "tec";var _rwObsfuscatedHref9 = "h.c";var _rwObsfuscatedHref10 = "om.";var _rwObsfuscatedHref11 = "mx";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8+_rwObsfuscatedHref9+_rwObsfuscatedHref10+_rwObsfuscatedHref11; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script> | <a href="/privacidad">Aviso de Privacidad</a> | <a href="/politicas">Pol&iacute;ticas</a>
 	</div>
 	<div id="footer_qixi_badge">
-	    <a href="http://www.qiximexico.com"><img src="rw_common/themes/VanguardiaHT/images/qixi/qixi_badge_oxford.png" width="75" height="45" alt="Desarrollado por Q&iuml;xi."/></a>
+	    <a href="http://www.qiximexico.com"><img src="images/qixi/qixi_badge_oxford.png" width="75" height="45" alt="Desarrollado por Q&iuml;xi."/></a>
 	</div>
 </div><!-- End Footer -->
 </body>
